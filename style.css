@@ -1,0 +1,52 @@
+body{
+  background-image: url('leaves.jpg');
+  background-size: 500px 500px;
+  text-align: center;
+}
+h1{
+  background: white;
+  border: 1px solid #adc17a;
+  display: inline;
+  padding: 0 10px;
+  text-shadow: 1px 1px 5px #95c126;
+}
+#survey-form{
+  margin: 2px auto 2px auto;
+  max-width: 1200px;
+  background-color: #adc17a;
+  display: grid;
+  grid-gap: 0px 10px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(auto-fit, 50px);
+}
+#description{
+  grid-column: 1/3;
+}
+.col1{
+  justify-self: end;
+}
+.col2{
+  justify-self: start;
+}
+ul{
+  list-style-type: none;
+  text-align: left;
+}
+#dropdown{
+  margin-bottom: 20px;
+}
+#comments{
+  margin-bottom: 20px;
+  width: 300px;
+  height: 50px;
+}
+#submit{
+  margin-bottom: 10px;
+}
+footer{
+  background: white;
+  border: 1px solid #adc17a;
+  display: inline;
+  padding: 0 5px;
+  text-shadow: 1px 1px 5px #95c126;
+}

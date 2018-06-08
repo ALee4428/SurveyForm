@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cannabis Survey</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+  <link rel='stylesheet' type='text/css' href='style.css'/>
+</head>
+<body>
+  <h1 id='title'>Survey Form</h1>
+  <form id='survey-form' class='form'>
+    <p id='description'>Tell us how you feel about federal legalization of cannabis:</p>
+    <div class='col1'>
+      <label id='name-label'>Name: </label>
+    </div>
+    <div class='col2'>
+      <input id='name' type='text' placeholder='Name' title='Please enter your first and last name.' required />
+    </div>
+    <div class='col1'>
+      <label id='email-label'>Email: </label>
+    </div>
+    <div class='col2'>
+      <input id='email' type='email' placeholder='Email' title='Please enter a valid email address.' required />
+    </div>
+    <div class='col1'>
+      <label id='number-label'>Age: </label>
+    </div>
+    <div class='col2'>
+      <input id='number' type='number' placeholder='Age' title='Please enter your age. Must be 16 to participate.' min='16' max='100' />
+    </div>
+    <div class='col1'>
+      <p>How would you classify your cannabis use?<br/>(Select One)</p>
+    </div>
+    <div class='col2'>
+      <ul>
+        <li><label for='expRadio'><input type='radio' name='experience' value='notUser'/>Do Not Use</label></li>
+        <li><label for='expRadio'><input type='radio' name='experience' value='medUser'/>Medical</label></li>
+        <li><label for='expRadio'><input type='radio' name='experience' value='recUser'/>Recreational</label></li>
+        <li><label for='expRadio'><input type='radio' name='experience' value='recNmed'/>Medical & Recreational</label></li>
+      </ul>
+    </div>
+    <div class='col1'>
+      <label>How frequent is your cannabis use?</label>
+    </div>
+    <div class='col2'>
+      <select id='dropdown'>
+        <option value='never'>I've never tried cannabis.</option>
+        <option value='tried'>I've tried cannabis but am not a user.</option>
+        <option value='social'>I use cannabis socially/on weekends.</option>
+        <option value='daily'>I am a daily cannabis user.</option>
+        <option value='pro'>I consider myself a cannabis connoisseur.</option>
+      </select>
+    </div>
+    <div class='col1'>
+      <p>Reasons to legalize:<br/>(Check all that apply)</p>
+    </div>
+    <div class='col2'>
+      <ul>
+        <li><label><input type='checkbox' name='proLegal' value='safe'/>It is safe for recreational use with zero recorded fatalities.</lagel></li>
+        <li><label><input type='checkbox' name='proLegal' value='textiles'/>It can be used for many types of material and will help with deforestation.</label></li>
+        <li><label><input type='checkbox' name='proLegal' value='medical'/>We are learning it has many medical uses and we need to research these benefits.</label></li>
+      </ul>
+    </div>
+    <div class='col1'>
+      <p>Reasons NOT to legalize:<br/>(Check all that apply)</p>
+    </div>
+    <div class='col2'>
+      <ul>
+        <li><label><input type='checkbox' name='antiLegal' value='madness'/>It causes the user to become violent and confused.</label></li>
+        <li><label><input type='checkbox' name='antiLegal' value='notEnoughInfo'/>We don't know enough about it to make it available to our citizens.</label></li>
+        <li><label><input type='checkbox' name='antiLegal' value='gateway'/>It is a gateway drug that leads to harder drug use.</label></li>
+      </ul>
+    </div>
+    <div class='col1'>
+      <label>Should cannabis be legalized at the federal level?</label>
+    </div>
+    <div class='col2'>
+      <select id='dropdown'>
+        <option value='never'>No, cannabis should stay illegal.</option>
+        <option value='tried'>Yes, but only for medical use under strict observation.</option>
+        <option value='social'>Yes, it should be fully legalized for both medical and recreational use.</option>
+      </select>
+    </div>
+    <div class='col1'>
+      <label>Tell us why you are for or against cannabis legalization?</label>
+    </div>
+    <div class='col2'>
+      <textarea id='comments'placeholder='Enter your comments'></textarea>
+    </div>
+    <div class='col1'>
+    </div>
+    <div class='col2'>
+      <input type='submit' id='submit'/>
+    </div>
+  </form>
+  <footer>coded by alee</footer>
+<script src='script.js'></script>
+<script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+</body>
+</html>
