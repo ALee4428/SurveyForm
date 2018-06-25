@@ -66,13 +66,13 @@ footer{
     font-size: 4vw;
   }
   form{
-    font-size: 12px;
+    font-size: 9px;
   }
   input{
-    font-size: 12px;
+    font-size: 9px;
   }
   select{
-    font-size: 12px;
+    font-size: 9px;
     width: 125px;
   }
   #comments{
@@ -80,6 +80,6 @@ footer{
     width: 125px;
 }
   footer{
-    font-size: 10px;
+    font-size: 7px;
   }
 }
