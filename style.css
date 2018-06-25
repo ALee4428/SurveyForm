@@ -81,7 +81,8 @@ footer{
   #comments{
     height: 25px;
     width: 125px;
-}
+    font-size: 8px;
+  }
   footer{
     font-size: 6px;
   }
